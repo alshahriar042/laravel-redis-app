@@ -56,7 +56,7 @@ Run the following command to migrate the database and seed it with sample data:
 php artisan migrate:fresh --seed
 ```
 
-### Test in Browae
+### Test in Browser
 Data 1st Time Load From Database.Than Always Load From Cache
 
 ```bash
