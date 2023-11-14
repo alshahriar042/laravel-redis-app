@@ -56,4 +56,9 @@ Run the following command to migrate the database and seed it with sample data:
 php artisan migrate:fresh --seed
 ```
 
-##
+### Test in Browae
+Data 1st Time Load From Database.Than Always Load From Cache
+
+```bash
+ http://127.0.0.1:8000/api/blog/6
+```
