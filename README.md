@@ -19,13 +19,13 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/alshahriar042/laravel-redis-app.git
     ```
 
 2. Change into the project directory:
 
     ```bash
-    cd your-repository
+    cd laravel-redis-app
     ```
 
 3. Install dependencies using Composer:
@@ -54,3 +54,6 @@ Run the following command to migrate the database and seed it with sample data:
 
 ```bash
 php artisan migrate:fresh --seed
+```
+
+##
