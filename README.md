@@ -62,3 +62,31 @@ Data 1st Time Load From Database.Than Always Load From Cache
 ```bash
  http://127.0.0.1:8000/api/blog/6
 ```
+Before
+```bash
+{
+"status_code": 201,
+"message": "Fetched from database",
+"data": {
+"id": 7,
+"title": "Test BLog",
+"description": "This is a Blog Descriptions",
+"created_at": "2023-11-14T06:15:50.000000Z",
+"updated_at": "2023-11-14T06:15:50.000000Z"
+}
+
+```
+After
+```bash
+{
+"status_code": 201,
+"message": "Fetched from redis",
+"data": {
+"id": 7,
+"title": "Test BLog",
+"description": "This is a Blog Descriptions",
+"created_at": "2023-11-14T06:15:50.000000Z",
+"updated_at": "2023-11-14T06:15:50.000000Z"
+}
+
+```
